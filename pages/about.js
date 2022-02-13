@@ -2,8 +2,8 @@ import styles from "../styles/Home.module.css";
 
 const About = () => {
   return (
-    <div className={styles.container}>
-      <h1>About</h1>
+    <div className={styles.grid}>
+      <h1 className={styles.title}>About</h1>
       <ul>
         <li>
           <b>CPU</b>

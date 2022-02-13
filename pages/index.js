@@ -2,8 +2,8 @@ import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
-    <div className={styles.container}>
-      <h1>Sega Master System</h1>
+    <div className={styles.grid}>
+      <h1 className={styles.title}>Sega Master System</h1>
       <p>
         The <b>Sega Master System</b> (マスターシステム Masutā Shisutemu) is a video
         game console released by Sega in 1985. The system was originally
