@@ -7,7 +7,7 @@ const Listing = () => {
       <h1 className={styles.title}>Top 10 Games</h1>
       <div className={styles.grid}>
         {games.map((game) => (
-          <div className={styles.card}>
+          <div className={styles.card} key={game.id}>
               <h3>{game.name}</h3>
               <img src={game.img} />
               <span>{game.year}</span>
