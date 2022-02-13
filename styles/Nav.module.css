@@ -1,0 +1,28 @@
+.nav {
+  background-color: #5c86c2;
+}
+
+.navcontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.nav a {
+  margin: 0 10px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.nav a:hover {
+  color: #0070f3;
+}
+
+.logo {
+  flex: 1;
+}

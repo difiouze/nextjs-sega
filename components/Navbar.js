@@ -1,14 +1,20 @@
 import Link from "next/link";
-import styles from '../styles/Home.module.css'
+import styles from "../styles/Nav.module.css";
+import Image from "next/image";
 
 const Navbar = () => {
-    return (
-        <div className={styles.grid}>
-            <Link href="/"><a>Home</a></Link>
-            <Link href="/about"><a>About</a></Link>
-            <Link href="/listing/listing"><a>Top 10 Games</a></Link>
+  return (
+    <div className={styles.nav}>
+      <nav className={styles.navcontainer}>
+        <div className={styles.logo}>
+          <Image src="/img/SEGA_logo.svg" width={200} height={70} />
         </div>
-    )
-}
+        <Link href="/">Home</Link>
+        <Link href="/about">About</Link>
+        <Link href="/listing/listing">Top 10 Games</Link>
+      </nav>
+    </div>
+  );
+};
 
 export default Navbar;
