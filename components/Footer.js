@@ -1,9 +1,9 @@
-import styles from '../styles/Home.module.css'
+import styles from "../styles/Footer.module.css"
 
 const Footer = () => {
     return (
-        <div className={styles.grid}>
-            Copyright 2022
+        <div className={styles.container}>
+            Copyright 2022 - difiouze-lab
         </div>
     )
 }

@@ -3,8 +3,8 @@ import fs from "fs/promises";
 import path from "path";
 
 export const getStaticProps = async () => {
-  const filPath = path.join(process.cwd(), "data", "games.json");
-  const jsonData = await fs.readFile(filPath);
+  const filePath = path.join(process.cwd(), "data", "games.json");
+  const jsonData = await fs.readFile(filePath);
   const data = JSON.parse(jsonData);
 
   return {

@@ -44,31 +44,31 @@
     },
     {
       "id": 7,
-      "name": "Hang On",
-      "year": 1985,
+      "name": "Altered Beast",
+      "year": 1989,
       "publisher": "Sega",
-      "img": "/img/alex-kidd.jpg"
+      "img": "/img/altered-beast.jpg"
     },
     {
       "id": 8,
-      "name": "Pyscho Fox",
+      "name": "Battle Out Run",
       "year": 1989,
       "publisher": "Sega",
-      "img": "/img/alex-kidd.jpg"
+      "img": "/img/battle-out-run.jpg"
     },
     {
       "id": 9,
-      "name": "Bomber Raid",
-      "year": 1989,
-      "publisher": "Sanristu",
-      "img": "/img/alex-kidd.jpg"
+      "name": "Captain Silver",
+      "year": 1988,
+      "publisher": "Sega",
+      "img": "/img/captain-silver.jpg"
     },
     {
       "id": 10,
-      "name": "Golvelius",
+      "name": "Double Dragon",
       "year": 1988,
-      "publisher": "Compile",
-      "img": "/img/alex-kidd.jpg"
+      "publisher": "Sega of America",
+      "img": "/img/double-dragon.jpg"
     }
   ]
 }
