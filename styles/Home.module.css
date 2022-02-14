@@ -121,6 +121,10 @@
   margin-left: 0.5rem;
 }
 
+.logoSega {
+  cursor: pointer;
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;
