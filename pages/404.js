@@ -6,7 +6,7 @@ const NotFound = () => {
     return (
       <div className={styles.grid}>
           <h2 className={styles.link}> Uh Oh ! Something went wrong !</h2>
-     <Image src="/img/notfound.gif" width="400" height="486" />
+     <Image src="/img/notfound.gif" width="200" height="243" />
      <Link href="/" className={styles.link}>Go back to Homepage</Link> 
       </div>
     );
