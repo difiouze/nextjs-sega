@@ -1,11 +1,14 @@
 import styles from "../.././styles/Home.module.css";
-import fs from "fs/promises";
-import path from "path";
+import data from '../../public/data/games.json'
+// import fs from "fs/promises";
+// import path from "path";
+
 
 export const getStaticProps = async () => {
-  const filePath = path.join(process.cwd(), "data", "games.json");
-  const jsonData = await fs.readFile(filePath);
-  const data = JSON.parse(jsonData);
+  // const filePath = path.join(process.cwd(), "data", "games.json");
+  // const jsonData = await fs.readFile(filePath);
+  // const data = JSON.parse(jsonData);
+  console.log(data.games)
 
   return {
     props: {

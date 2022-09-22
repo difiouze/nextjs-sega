@@ -55,23 +55,23 @@ export default function Home() {
           <h2 className={styles.sectionTitleHeading}>Redesigns</h2>
         </div>
 
-        <p>
-          <h3>Master System II</h3>
+          <h3 className={styles.sectionSubtitle}>Master System II</h3>
+          <p>
           In 1990, Sega was having success in North America with its Sega
           Genesis and as a result took back the rights from Tonka for the Master
           System. The Sega Master System II was initially made to be a low-cost
           Master System. The system lacked the reset button, expansion port
           (which was never used), and card slot of the original. The Master
           System II could not utilize the 3D glasses accessory as well.
+          </p>
           <br />
-          <h3>Master System 3</h3>
-          The Master System 3 was released by Tec Toy. Although outwardly
+          <h3 className={styles.sectionSubtitle}>Master System 3</h3>
+          <p>The Master System 3 was released by Tec Toy. Although outwardly
           similar to the Master System II, the Master System 3 featured internal
           changes that allowed it to handle cartridges up to 8 megabits (1024
           kilobytes) in size. The Master System 3 came with 131 games built in,
           including Genesis games such as Sonic the Hedgehog, Alex Kidd and
-          Golden Axe.
-        </p>
+          Golden Axe.</p>
       </div>
     </div>
   );

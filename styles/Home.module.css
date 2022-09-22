@@ -57,6 +57,11 @@
   margin-bottom: 0;
 }
 
+.sectionSubtitle {
+  text-align: left;
+  width: 100%;
+}
+
 .description {
   margin: 4rem 0;
   line-height: 1.5;
