@@ -17,7 +17,7 @@ const Listing = ({ games }) => {
       <h1 className={styles.title}>Top 10 Games</h1>
       <div className={styles.grid}>
         {games.map((game) => (
-          <Link href={"/games/" + game.id} key={game.id}>
+          <Link href={"/game/" + game.id} key={game.id}>
             <div className={styles.card}>
               <h3>{game.name}</h3>
               <img src={game.img} />
